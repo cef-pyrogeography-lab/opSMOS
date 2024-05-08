@@ -212,7 +212,7 @@ if (CREATE.INTERFACE | TESTIDX | !exists("mat.Flamm") | !exists("mat.urb1"))
   
   # remove repeated vertices except the last vertice of the feature  (so the feature closes) 
   dups<-duplicated(as.data.table(mat.Flamm)) # TRUE if the row of mat.Flam already occurs
-  step <- as.integer(c(diff(mat.Flamm[,"idx.part.f"])!=0,FALSE)) # TRUE if idx.part.f changes
+  step <- as.integer(c(diff(mat.Flamm[,"idx.part.f"])!=0,FALSE)) # TRUE if idx.part.f changes step is 1 when we move to a different ring; it's 0 when we stay in the same ring
   mat.Flamm<-mat.Flamm[!dups | !step,]  # 
   mat.Flamm<-cbind(mat.Flamm,data.frame(idx.vert.f=1:nrow(mat.Flamm)))
   
