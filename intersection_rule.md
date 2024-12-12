@@ -12,8 +12,8 @@ The arithmetic expression involves these components:
 
 ### Arithmetic Expression for Intersection
 Let the two segments be defined as:
-- Segment 1: \((x_V, y_V)\) to \((x_F, y_F)\)
-- Segment 2: \((x_W, y_W)\) to \((x_{WW}, y_{WW})\)
+- Segment 1: $(x_V, y_V)$ to $(x_F, y_F)$
+- Segment 2: $(x_W, y_W)$ to $(x_{WW}, y_{WW})$
 
 The segments intersect if:
 1. The endpoints of Segment 2 lie on opposite sides of Segment 1, **and**
@@ -68,8 +68,8 @@ The arithmetic expression involves these components:
 
 ### Arithmetic Expression for Intersection
 Let the two segments be defined as:
-- Segment 1: \((x_V, y_V)\) to \((x_F, y_F)\)
-- Segment 2: \((x_W, y_W)\) to \((x_{WW}, y_{WW})\)
+- Segment 1: $(x_V, y_V)$ to $(x_F, y_F)$
+- Segment 2: $(x_W, y_W)$ to $(x_{WW}, y_{WW})$
 
 The segments intersect if:
 1. The endpoints of Segment 2 lie on opposite sides of Segment 1, **and**
