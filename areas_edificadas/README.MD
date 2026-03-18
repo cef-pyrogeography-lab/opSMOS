@@ -5,7 +5,7 @@
 
 # I/0
 - Input: Ficheiro vetorial de polígonos de edificado Lidar (EPSG:3763), e.g. `Sintra_test02_13_02_2026.shp`
-- Output: Ficheiro vetorial multiparte em que cada feature é um cluster de edifícios (EPSG:3763)
+- Output: Ficheiro vetorial multiparte em que cada feature é um cluster de edifícios (EPSG:3763), e.g. `areas_edificadas_min_10_edificios.gpkg`
 
 
 ## Scripts a executar em QGIS
