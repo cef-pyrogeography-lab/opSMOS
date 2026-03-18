@@ -2,9 +2,10 @@
 
 **Cartografia de áreas edificadas, i.e. áreas com mais de 10 edifícios que distem entre si menos de 50 m.**
 
-## Input:
 
-1. Ficheiro vetorial de polígonos de edificado Lidar (EPSG:3763)
+# I/0
+- Input: Ficheiro vetorial de polígonos de edificado Lidar (EPSG:3763)
+- Output: Ficheiro vetorial multiparte em que cada feature é um cluster de edifícios (EPSG:3763)
 
 
 ## Scripts a executar em QGIS
